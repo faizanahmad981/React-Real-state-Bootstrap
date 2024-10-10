@@ -15,7 +15,7 @@ const Header = () => {
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class=" navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
                     <a class="nav-link" href="#">About us</a>
                 </li>
@@ -31,9 +31,7 @@ const Header = () => {
                 <li class="nav-item">
                     <a class="nav-link" href="#">Listings</a>
                 </li>
-                <li class="nav-item">
-                <FontAwesomeIcon icon={faMagnifyingGlass} />
-                </li>
+              
             </ul>
            
             <span className="navbar-text me-3">Other services</span>
