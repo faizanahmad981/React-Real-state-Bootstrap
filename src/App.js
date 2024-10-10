@@ -6,7 +6,7 @@ import RealStateSectionss from './components/realstate';
 import Newsletter from './components/newsletter';
 import Cards from './components/cards';
 import Header from './layout/header/header';
-import CustomNavbar from './layout/header/index';
+
 function App() {
  
   return (
@@ -16,10 +16,10 @@ function App() {
      
        <Steps/>
        <Cards/>
-
-    <RealStateSectionss/>
-    <Newsletter/>
-      {/*   */}
+       <RealStateSectionss/>
+       <Newsletter/>
+      
+     
      
     </div>
   );

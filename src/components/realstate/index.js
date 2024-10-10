@@ -34,7 +34,7 @@ const RealStateSectionss = () => {
             </div>
         </div>
         <div className="image-section">
-            <img src="https://storage.googleapis.com/a1aa/image/FhXLz35xVNaeNqe6x49NdvpR7AUPkW5YwrXmQzyJAUf4oaHnA.jpg"   alt="A man and a woman discussing something while looking at a laptop"/>
+            <img src="https://storage.googleapis.com/a1aa/image/FhXLz35xVNaeNqe6x49NdvpR7AUPkW5YwrXmQzyJAUf4oaHnA.jpg" alt="A man and a woman discussing something while looking at a laptop"/>
         </div>
     </div>
    </>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../steps/index.css'; 
+import '../steps/index.css';
 import message from '../../assets/images/messages.svg';
 import edit from '../../assets/images/edit-2.svg';
 import tracking from '../../assets/images/sms-tracking.jpg';
@@ -20,7 +20,7 @@ const Steps = () => {
                 <img src={message} alt="Answer questions" />
               </div>
               <h5 className="font-weight-bold">Answer questions</h5>
-              <p className="text-muted">Lorem ipsum dolor sit amet consectetur.<br/> Adipiscing imperdiet bibendum in in<br/> vestibulum.</p>
+              <p className="text-muted">Lorem ipsum dolor sit amet consectetur.<br />Adipiscing imperdiet bibendum in in<br />vestibulum.</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const Steps = () => {
                 <img src={tracking} alt="Select a quote" />
               </div>
               <h5 className="font-weight-bold">Select a quote</h5>
-              <p className="text-muted">Lorem ipsum dolor sit amet consectetur.<br/> Adipiscing imperdiet bibendum in in<br/> vestibulum.</p>
+              <p className="text-muted">Lorem ipsum dolor sit amet consectetur.<br />Adipiscing imperdiet bibendum in in<br />vestibulum.</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Steps = () => {
                 <img src={edit} alt="Get registered" />
               </div>
               <h5 className="font-weight-bold">Get registered</h5>
-              <p className="text-muted">Lorem ipsum dolor sit amet consectetur.<br/> Adipiscing imperdiet bibendum in in<br/> vestibulum.</p>
+              <p className="text-muted">Lorem ipsum dolor sit amet consectetur.<br />Adipiscing imperdiet bibendum in in<br />vestibulum.</p>
             </div>
           </div>
         </div>

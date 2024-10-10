@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 import '../cards/index.css'; // Make sure to import the updated CSS file
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

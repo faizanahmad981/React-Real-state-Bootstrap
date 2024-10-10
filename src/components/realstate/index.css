@@ -3,59 +3,70 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 .text-section {
     flex: 1;
     min-width: 300px;
     margin-bottom: 30px;
 }
+
 .text-section h2 {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .text-section p {
     font-weight: 400;
     margin-bottom: 20px;
 }
+
 .buttons {
     margin-bottom: 30px;
 }
+
 .buttons .btn {
     margin-right: 10px;
 }
+
 .stats {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    
 }
+
 .stats div {
     text-align: center;
     flex: 1;
 }
+
 .stats div h3 {
     font-weight: 700;
     margin-bottom: 5px;
 }
+
 .stats div p {
     font-weight: 400;
 }
+
 .image-section {
     flex: 1;
     min-width: 300px;
     text-align: center;
 }
+
 .image-section img {
     border-radius: 10px;
-   /*   */
     max-width: 100%;
-    width: 400px !important;
     height: auto;
-    
+    object-fit: cover; 
 }

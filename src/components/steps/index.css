@@ -1,40 +1,56 @@
 .steps-section {
-    background-color: white;
-  }
-  .containerstep{
-    margin: 50px auto;
-    padding: 20px;
-    background: white ;
-    border-radius: 15px;
-   
-    max-width: calc(100% - 40px); 
-    
+  background-color: white;
 }
-  .step{
-    background-color: white;
-   text-align: left;
-   justify-content: flex-start;
-   align-items: flex-start;
-  }
-  .icon img {
-    width: 50px;  
-  }
-  .center-contents {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  
-  }
-  
+
+.containerstep {
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  max-width: 1200px; 
+  width: 100%;
+}
+
+.step {
+  background-color: white;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.icon img {
+  width: 50px; 
+  height: auto; 
+}
+
+.center-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.step h5 {
+  font-size: 1.25rem;
+  align-items: flex-start;
+}
+
+.step p {
+  font-size: 0.9rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
   .step h5 {
-    font-size: 1.25rem;
-    align-items: flex-start;
+    font-size: 1rem; 
   }
-  
+
   .step p {
-    font-size: 0.9rem;
-    align-items: flex-start;
+    font-size: 0.8rem; 
   }
-  
+
+  .icon img {
+    width: 40px; 
+  }
+}
